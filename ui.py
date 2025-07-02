@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load("C:/Users/LAB/beam_model.pkl")
+model = joblib.load("beam_model.pkl")
 
 st.title("🔧 Beam Deformation Predictor")
 st.markdown("Enter beam dimensions and pressure to predict maximum deformation.")
